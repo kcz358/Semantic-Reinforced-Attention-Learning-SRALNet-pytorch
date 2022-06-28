@@ -17,6 +17,9 @@ class SRALNet(nn.Module):
                 Dimension of descriptors
             alpha : float
                 Parameter of initialization. Larger value is harder assignment.
+            centroids : tensor
+                Should be a tensor with shape (num_clusters, num_shadow + 1, dim)
+                Each clusters first point should be your representative centroids and others are the shadow centroids
         """
         super(SRALNet, self).__init__()
         self.num_clusters = num_clusters
