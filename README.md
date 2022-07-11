@@ -5,6 +5,7 @@ The SRALNet, similar to the [NetVLAD: CNN architecture for weakly supervised pla
 
 The SRALNet.py in this file is a pytorch impelementation of the SRALNet. <br>
 The implementation has refered to [NetVLAD-pytorch](https://github.com/lyakaap/NetVLAD-pytorch), [NetVLAD-training](https://github.com/Nanne/pytorch-NetVlad) for the basic structure of the NetVLAD
+Pretrained DeepLabV3 model on Cityscapes can be found in site [deeplabv3](https://github.com/fregu856/deeplabv3)
 
 ## Usage Example
 
