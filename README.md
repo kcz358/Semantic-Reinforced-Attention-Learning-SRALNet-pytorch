@@ -3,9 +3,9 @@ Pytorch implementation on SRALNet from [Semantic Reinforced Attention Learning f
 
 The SRALNet, similar to the [NetVLAD: CNN architecture for weakly supervised place recognition](https://arxiv.org/abs/1511.07247), also use a unified conv layer to process the extracted local features. Differently, the SRALNet does an extra intra cluster assignment to suppress irrelevant object.
 
-The SRALNet.py in this file is a pytorch impelementation of the SRALNet. <br>
-The implementation has refered to [NetVLAD-pytorch](https://github.com/lyakaap/NetVLAD-pytorch), [NetVLAD-training](https://github.com/Nanne/pytorch-NetVlad) for the basic structure of the NetVLAD <br>
-Pretrained DeepLabV3 model on Cityscapes can be found in site [deeplabv3](https://github.com/fregu856/deeplabv3)
+- The SRALNet.py in this file is a pytorch impelementation of the SRALNet. <br>
+- The implementation has refered to [NetVLAD-pytorch](https://github.com/lyakaap/NetVLAD-pytorch), [NetVLAD-training](https://github.com/Nanne/pytorch-NetVlad) for the basic structure of the NetVLAD <br>
+- Pretrained DeepLabV3 model on Cityscapes can be found in site [deeplabv3](https://github.com/fregu856/deeplabv3)
 
 ## Usage Example
 
