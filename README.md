@@ -1,11 +1,5 @@
 # Semantic-Reinforced-Attention-Learning-SRALNet-pytorch
 
-Project Not finished
-
-## Current Problem
-- [ ] issues for setting weights for the convolutional layer. Might have some difference compare to the article
-
-
 ## Introduction
 Pytorch implementation on SRALNet from [Semantic Reinforced Attention Learning for Visual Place Recognition](https://arxiv.org/abs/2108.08443)
 
