@@ -15,7 +15,7 @@ The SRALNet, similar to the [NetVLAD: CNN architecture for weakly supervised pla
 ```python
 import torch
 import torch.nn as nn
-from SRALNet import SRALNet
+from sral import SRALNet
 
 #vgg16 backbone
 encoder = models.vgg16(pretrained=True)
